@@ -1,0 +1,213 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+.navbar-fixed-top
+{
+    
+    background-color:white;
+    margin-bottom:20px;
+}
+#imageLogo{
+   width: 107.89px;
+   height: 34.36px;
+}
+#wicket{
+
+    width:400px;
+    height:250px;
+}
+#hero
+ { 
+    background:url(../../images/12.jpg);
+    height:100%;
+ }
+ #heady{
+   padding-bottom:20px; 
+   margin-bottom:10px;
+ }
+ }
+
+ #fot{
+   background-color:black;
+ }
+
+footer
+{
+  text-align:center;margin-top: 50px;
+  background-color:black ;
+  color:red;}
+.fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align:center;
+   text-decoration: none;
+
+}
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+   border-radius:50%;
+   width:20px;
+}
+
+
+.fa-twitter {
+   background: #55ACEE;
+   color: white;
+  
+    border-radius:50%;
+    width:20px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius:50%;
+  width:20px;
+}
+
+ul.unstyled{
+   list-style: none;
+   padding: 0px;
+
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+}
+
+.well .page-header{
+   margin-top: 0;
+}
+
+
+.well .page-header h1{
+   margin-top: 0;
+}
+
+p{
+  font-family:'Sofia',cursive;
+}
+#sachin
+{
+    height:256px;
+}
+.footy
+{
+    background-color:black;
+}
+footer h3{
+    color:white;
+}
+
+footer p
+{ color:yellow; }
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar-brand{
+   padding:0px;
+   float:left;
+   background-color:white;
+}  
+.nav{
+   background-color:white;
+}
+.container{
+   background-color:white;
+   color:black;
+} 
+#featureHeading
+{
+    text-transform:uppercase;
+}
+.collapse{
+   background-color:white;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert{
+   margin-top: 0px;
+   display: none;
+}
+.well{
+   margin: 20px 0;
+}
+
+.tabbable img.thumbnail{
+   margin : 0 20px 10px 0;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+/* Landscape phone to portrait tablet */
+
+/* Landscape phone to portrait tablet */
+@media  (max-width:400px) {
+   #myCarousel .item{
+   height:183px;
+  
+   }
+   #slide1{
+      background: url('../../images/yo.jpg') top center no-repeat;
+   }
+
+   #slide2{
+      background: url('../../images/yo.jpg') top center no-repeat ;
+   }
+
+   #slide3{
+      background: url('../../images/yo.jpg') top center no-repeat;
+   }  
+   .carousel-caption{
+   font-size: 16px;
+   }
+   .carousel-caption h4{
+   font-size: 22px;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   #myCarousel .item{
+   height: 675px;
+   }
+   #slide1{
+      background: url('../../images/1cl.jpg') top center no-repeat;
+   }
+
+   #slide2{
+      background: url('../../images/5cl.jpg') top center no-repeat ;
+   }
+
+   #slide3{
+      background: url('../../images/4cl.jpg') top center no-repeat;
+   }
+   
+}
