@@ -1,2 +1,2 @@
-Just a basic Responsive Website Designed with the refrence of MakeMyTrip Website;
-I have used components of Bootstrap 3.0.0 in this site
+ Responsive Website Designed by modifying the older cricket html side.
+Some bootstrap features of map and and modal form have been added
